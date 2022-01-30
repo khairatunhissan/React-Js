@@ -4,6 +4,7 @@ import Form from './components/Form';
 import BookList from './components/BookList'
 import Navbar from './components/Navbar';
 import { BookProvider } from './components/BookContext';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       <Navbar/>
      <Form/>
      <BookList/>
-    </div>
-    </BookProvider>
+     <Counter/>
+     </div>
+    
+   </BookProvider>
   );
 }
 
