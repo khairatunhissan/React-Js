@@ -10,7 +10,6 @@ function BookList() {
           {books.map((book,index)=>(
               <Book 
               key={index}
-              
               name={book.name}
               price={book.price}/>
           ))}
